@@ -1,2 +1,2 @@
 # leetcode
-Leetcode submissions
+Leetcode submissions posted using https://github.com/QasimWani/LeetHub
