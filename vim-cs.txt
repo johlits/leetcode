@@ -1,3 +1,5 @@
+viB
+    - Cursor on class to select
 "+y
     - Yank to system clipboard
 "+p
