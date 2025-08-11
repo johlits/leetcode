@@ -1,0 +1,4 @@
+"+y
+    - Yank to system clipboard
+"+p
+    - Paste from system clipboard
