@@ -1,13 +1,9 @@
-﻿using LeetCode.Sqrtx;
+using LeetCode.FindWordsContaining;
 
 var solution = new Solution();
 
-var a = solution.MySqrt(4);
-var b = solution.MySqrt(8);
-var c = solution.MySqrt(0);
+var a = solution.FindWordsContaining(new[] { "leet", "code" }, 'e');
 
-Console.WriteLine(a);
-Console.WriteLine(b);
-Console.WriteLine(c);
+Console.WriteLine(string.Join(",", a));
 
 Console.WriteLine("");

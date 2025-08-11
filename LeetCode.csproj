@@ -8,7 +8,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Unfinished\" />
+    <Compile Remove="Unfinished\**" />
+    <EmbeddedResource Remove="Unfinished\**" />
+    <None Remove="Unfinished\**" />
   </ItemGroup>
 
 </Project>
