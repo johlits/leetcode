@@ -1,9 +1,16 @@
-using LeetCode.FindWordsContaining;
+using LeetCode.ThreeSum;
 
 var solution = new Solution();
 
-var a = solution.FindWordsContaining(new[] { "leet", "code" }, 'e');
+var a = solution.ThreeSum([-1,0,1,2,-1,-4]);
 
-Console.WriteLine(string.Join(",", a));
+foreach (var b in a)
+{
+    foreach (var c in b)
+    {
+        Console.Write(c + " ");
+    }
+    Console.WriteLine();
+}
 
 Console.WriteLine("");
